@@ -36,9 +36,15 @@
                             <Agent-Class>
                                 com.zero.AgentMain
                             </Agent-Class>
+                            <Premain-Class>
+                                com.zero.PreMain
+                            </Premain-Class>
                             <Can-Redefine-Classes>
                                 true
                             </Can-Redefine-Classes>
+                            <Can-Retransform-Classes>
+                                true
+                            </Can-Retransform-Classes>
                         </manifestEntries>
                         <manifest>
                             <!--指定 mian 类名字，下面将会使用到-->

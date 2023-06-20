@@ -11,7 +11,7 @@ import java.lang.instrument.UnmodifiableClassException;
 /**
  * @author: Zero
  * @date: 2023-06-18 23:12
- * @desc:
+ * @desc: agentmain 方式
  */
 public class AgentMain {
     public static void agentmain(String agentArgs, Instrumentation inst) {
