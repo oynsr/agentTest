@@ -39,10 +39,6 @@ public class AgentMain {
         }
     }
 
-    public static void premain(String agentArgs, Instrumentation inst){
-
-    }
-
 
     private static String readClassName(final byte[] bytes) {
         return new ClassReader(bytes).getClassName().replace("/", ".");
