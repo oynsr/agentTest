@@ -29,8 +29,6 @@ public class AgentMain {
             // inst.getAllLoadedClasses 方法将会获取所有已加载的 class
             for (Class clazz : inst.getAllLoadedClasses()) {
                 if (clazz.getName().equals(clazzName)) {
-                    if (clazz.getName().equals(clazzName)) {}
-
                     ClassDefinition definition = new ClassDefinition(clazz, bytes);
                     // 使用指定的 class 替换当前系统正在使用 class
                     inst.redefineClasses(definition);
